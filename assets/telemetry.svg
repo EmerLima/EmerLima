@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="236" viewBox="0 0 860 236" role="img" aria-labelledby="t d">
+<title id="t">Telemetría</title>
+<desc id="d">Cerca de 3,5 años de experiencia en 3 empresas. Ingeniería Electrónica en la UTN, 3er año. Español nativo, inglés intermedio.</desc>
+<defs>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glow2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#d8a94a" stroke-opacity=".07"/></pattern>
+<pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect y="2" width="4" height="1" fill="#000" fill-opacity=".18"/></pattern>
+<radialGradient id="g1" cx="20%" cy="0%" r="60%"><stop offset="0" stop-color="#00f0ff" stop-opacity=".12"/><stop offset="1" stop-color="#00f0ff" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2" cx="90%" cy="100%" r="55%"><stop offset="0" stop-color="#ff2bd6" stop-opacity=".10"/><stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/></radialGradient>
+<linearGradient id="hl" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#d8a94a"/><stop offset="1" stop-color="#d8a94a" stop-opacity="0"/></linearGradient>
+<linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00f0ff" stop-opacity=".10"/><stop offset="1" stop-color="#051e24" stop-opacity=".75"/></linearGradient>
+<linearGradient id="pin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e0b45a"/><stop offset="1" stop-color="#9c7326"/></linearGradient>
+</defs>
+<style><![CDATA[
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace}
+.d{font-family:'Orbitron','Bahnschrift','Segoe UI Black','Arial Black',Verdana,sans-serif;font-weight:800}
+.pre{white-space:pre}
+.cur{animation:blink 1s steps(1) infinite}
+@keyframes blink{0%,49%{fill:#00f0ff}50%,100%{fill:transparent}}
+]]></style>
+<rect width="860" height="236" fill="#04161b"/>
+<rect width="860" height="236" fill="url(#grid)"/>
+<rect width="860" height="236" fill="url(#g1)"/>
+<rect width="860" height="236" fill="url(#g2)"/>
+<rect x="32" y="39" width="10" height="10" fill="#00f0ff" transform="rotate(45 37 44)" filter="url(#glow2)"/>
+<text class="d" x="54" y="48.5" font-size="13" font-weight="500" fill="#d8a94a" textLength="135.0" lengthAdjust="spacing">TELEMETRÍA</text>
+<rect x="201.0" y="44" width="631.0" height="1" fill="url(#hl)"/>
+<rect x="28" y="70" width="190" height="92" fill="rgba(5,30,36,.62)" stroke="#00f0ff" stroke-opacity=".35"/>
+<text class="m" x="42" y="92" font-size="11" letter-spacing="2" fill="#7fb3b3">EXPERIENCIA</text>
+<text class="d" x="42" y="130" font-size="26" fill="#fff" filter="url(#glow2)">≈ 3,5</text>
+<text class="m" x="42" y="150" font-size="11" fill="#7fb3b3">años en total</text>
+<rect x="232" y="70" width="190" height="92" fill="rgba(5,30,36,.62)" stroke="#00f0ff" stroke-opacity=".35"/>
+<text class="m" x="246" y="92" font-size="11" letter-spacing="2" fill="#7fb3b3">EMPRESAS</text>
+<text class="d" x="246" y="130" font-size="26" fill="#fff" filter="url(#glow2)">3</text>
+<text class="m" x="246" y="150" font-size="11" fill="#7fb3b3">electrónica y embebidos</text>
+<rect x="436" y="70" width="190" height="92" fill="rgba(5,30,36,.62)" stroke="#00f0ff" stroke-opacity=".35"/>
+<text class="m" x="450" y="92" font-size="11" letter-spacing="2" fill="#7fb3b3">CARRERA</text>
+<text class="d" x="450" y="130" font-size="26" fill="#fff" filter="url(#glow2)">3er año</text>
+<text class="m" x="450" y="150" font-size="11" fill="#7fb3b3">Ing. Electrónica · UTN</text>
+<rect x="640" y="70" width="190" height="92" fill="rgba(5,30,36,.62)" stroke="#00f0ff" stroke-opacity=".35"/>
+<text class="m" x="654" y="92" font-size="11" letter-spacing="2" fill="#7fb3b3">IDIOMAS</text>
+<text class="d" x="654" y="130" font-size="26" fill="#fff" filter="url(#glow2)">ES · EN</text>
+<text class="m" x="654" y="150" font-size="11" fill="#7fb3b3">nativo · intermedio</text>
+<path d="M28 188H260L290 176H560L590 200H832" fill="none" stroke="#d8a94a" stroke-width="2" stroke-opacity=".55"/>
+<path d="M28 188H260L290 176H560L590 200H832" pathLength="1000" fill="none" stroke="#00f0ff" stroke-width="3" stroke-dasharray="30 970" filter="url(#glow2)"><animate attributeName="stroke-dashoffset" from="0" to="-1000" dur="4s" repeatCount="indefinite"/></path>
+<g class="m" font-size="11" fill="#7fb3b3"><text x="28" y="222">GND ─┴─</text><text x="832" y="222" text-anchor="end">© 2026 EMERSON LIMACHI · FIN DE TRANSMISIÓN</text></g>
+<path d="M.5 .5H859.5V235.5H.5Z" fill="none" stroke="#00f0ff" stroke-opacity=".35"/>
+<g fill="none" stroke="#00f0ff" stroke-width="2" filter="url(#glow2)"><path d="M1 24V1H24"/><path d="M836 1H859V24"/><path d="M1 212V235H24"/><path d="M836 235H859V212"/></g>
+<rect width="860" height="236" fill="url(#scan)"/>
+</svg>

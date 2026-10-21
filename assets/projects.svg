@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="574" viewBox="0 0 860 574" role="img" aria-labelledby="t d">
+<title id="t">Proyectos en banco</title>
+<desc id="d">Proyectos de Emerson Limachi. Plataforma de testing (en desarrollo): app de escritorio para automatizar pruebas de equipos electrónicos. Sync con Sheets (en diseño). Domótica DIY con ESP32 y Home Assistant (en diseño). Smart USB (concepto).</desc>
+<defs>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glow2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#d8a94a" stroke-opacity=".07"/></pattern>
+<pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect y="2" width="4" height="1" fill="#000" fill-opacity=".18"/></pattern>
+<radialGradient id="g1" cx="20%" cy="0%" r="60%"><stop offset="0" stop-color="#00f0ff" stop-opacity=".12"/><stop offset="1" stop-color="#00f0ff" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2" cx="90%" cy="100%" r="55%"><stop offset="0" stop-color="#ff2bd6" stop-opacity=".10"/><stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/></radialGradient>
+<linearGradient id="hl" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#d8a94a"/><stop offset="1" stop-color="#d8a94a" stop-opacity="0"/></linearGradient>
+<linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00f0ff" stop-opacity=".10"/><stop offset="1" stop-color="#051e24" stop-opacity=".75"/></linearGradient>
+<linearGradient id="pin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e0b45a"/><stop offset="1" stop-color="#9c7326"/></linearGradient>
+</defs>
+<style><![CDATA[
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace}
+.d{font-family:'Orbitron','Bahnschrift','Segoe UI Black','Arial Black',Verdana,sans-serif;font-weight:800}
+.pre{white-space:pre}
+.cur{animation:blink 1s steps(1) infinite}
+@keyframes blink{0%,49%{fill:#00f0ff}50%,100%{fill:transparent}}
+]]></style>
+<rect width="860" height="574" fill="#04161b"/>
+<rect width="860" height="574" fill="url(#grid)"/>
+<rect width="860" height="574" fill="url(#g1)"/>
+<rect width="860" height="574" fill="url(#g2)"/>
+<rect x="32" y="39" width="10" height="10" fill="#00f0ff" transform="rotate(45 37 44)" filter="url(#glow2)"/>
+<text class="d" x="54" y="48.5" font-size="13" font-weight="500" fill="#d8a94a" textLength="243.0" lengthAdjust="spacing">PROYECTOS_EN_BANCO</text>
+<rect x="309.0" y="44" width="523.0" height="1" fill="url(#hl)"/>
+<polygon points="28,84 406,84 422,100 422,320 28,320" fill="url(#card)" stroke="#00f0ff" stroke-opacity=".35"/>
+<circle cx="48" cy="112" r="5" fill="#04161b" stroke="#d8a94a" stroke-width="2"/>
+<text class="d" x="62" y="117" font-size="15" letter-spacing="1" fill="#fff">PLATAFORMA DE TESTING</text>
+<text class="m" x="62" y="142" font-size="12" fill="#b9dede">App de escritorio para Ubuntu que automatiza</text>
+<text class="m" x="62" y="159" font-size="12" fill="#b9dede">la prueba, configuración y registro de</text>
+<text class="m" x="62" y="176" font-size="12" fill="#b9dede">equipos electrónicos, y sincroniza los</text>
+<text class="m" x="62" y="193" font-size="12" fill="#b9dede">resultados con Google Sheets.</text>
+<rect x="62" y="214" width="72.4" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="98.2" y="228" font-size="11" text-anchor="middle" fill="#d8a94a">Electron</text>
+<rect x="142.4" y="214" width="52.0" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="168.4" y="228" font-size="11" text-anchor="middle" fill="#d8a94a">React</text>
+<rect x="202.4" y="214" width="86.0" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="245.4" y="228" font-size="11" text-anchor="middle" fill="#d8a94a">TypeScript</text>
+<rect x="296.4" y="214" width="92.8" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="342.79999999999995" y="228" font-size="11" text-anchor="middle" fill="#d8a94a">Spring Boot</text>
+<rect x="62" y="240" width="72.4" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="98.2" y="254" font-size="11" text-anchor="middle" fill="#d8a94a">Supabase</text>
+<rect x="76.0" y="289" width="70.0" height="2" fill="#00f0ff"/>
+<circle cx="67.0" cy="290" r="5" fill="#00f0ff" filter="url(#glow2)"></circle>
+<text class="m" x="62.0" y="309" font-size="10" fill="#7fb3b3">concepto</text>
+<rect x="160.0" y="289" width="70.0" height="2" fill="#00f0ff"/>
+<circle cx="151.0" cy="290" r="5" fill="#00f0ff" filter="url(#glow2)"></circle>
+<text class="m" x="146.0" y="309" font-size="10" fill="#7fb3b3">diseño</text>
+<rect x="244.0" y="289" width="70.0" height="2" fill="#16393d"/>
+<circle cx="235.0" cy="290" r="5" fill="#00f0ff" filter="url(#glow2)"><animate attributeName="opacity" values="1;.35;1" dur="1.8s" repeatCount="indefinite"/></circle>
+<text class="m" x="230.0" y="309" font-size="10" fill="#00f0ff">desarrollo</text>
+<circle cx="319.0" cy="290" r="4" fill="#04161b" stroke="#2a5a5c" stroke-width="2"/>
+<text class="m" x="314.0" y="309" font-size="10" fill="#4f7d7d">listo</text>
+<polygon points="438,84 816,84 832,100 832,320 438,320" fill="url(#card)" stroke="#00f0ff" stroke-opacity=".35"/>
+<circle cx="458" cy="112" r="5" fill="#04161b" stroke="#d8a94a" stroke-width="2"/>
+<text class="d" x="472" y="117" font-size="15" letter-spacing="1" fill="#fff">SYNC CON SHEETS</text>
+<text class="m" x="472" y="142" font-size="12" fill="#b9dede">App de escritorio con interfaz moderna que</text>
+<text class="m" x="472" y="159" font-size="12" fill="#b9dede">sincroniza datos en tiempo real y en ambos</text>
+<text class="m" x="472" y="176" font-size="12" fill="#b9dede">sentidos con una planilla de Google Sheets.</text>
+<rect x="472" y="214" width="58.8" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="501.4" y="228" font-size="11" text-anchor="middle" fill="#d8a94a">Python</text>
+<rect x="538.8" y="214" width="45.2" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="561.4" y="228" font-size="11" text-anchor="middle" fill="#d8a94a">Flet</text>
+<rect x="592.0" y="214" width="106.39999999999999" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="645.2" y="228" font-size="11" text-anchor="middle" fill="#d8a94a">Google Sheets</text>
+<rect x="486.0" y="289" width="70.0" height="2" fill="#00f0ff"/>
+<circle cx="477.0" cy="290" r="5" fill="#00f0ff" filter="url(#glow2)"></circle>
+<text class="m" x="472.0" y="309" font-size="10" fill="#7fb3b3">concepto</text>
+<rect x="570.0" y="289" width="70.0" height="2" fill="#16393d"/>
+<circle cx="561.0" cy="290" r="5" fill="#00f0ff" filter="url(#glow2)"><animate attributeName="opacity" values="1;.35;1" dur="1.8s" repeatCount="indefinite"/></circle>
+<text class="m" x="556.0" y="309" font-size="10" fill="#00f0ff">diseño</text>
+<rect x="654.0" y="289" width="70.0" height="2" fill="#16393d"/>
+<circle cx="645.0" cy="290" r="4" fill="#04161b" stroke="#2a5a5c" stroke-width="2"/>
+<text class="m" x="640.0" y="309" font-size="10" fill="#4f7d7d">desarrollo</text>
+<circle cx="729.0" cy="290" r="4" fill="#04161b" stroke="#2a5a5c" stroke-width="2"/>
+<text class="m" x="724.0" y="309" font-size="10" fill="#4f7d7d">listo</text>
+<polygon points="28,336 406,336 422,352 422,546 28,546" fill="url(#card)" stroke="#00f0ff" stroke-opacity=".35"/>
+<circle cx="48" cy="364" r="5" fill="#04161b" stroke="#d8a94a" stroke-width="2"/>
+<text class="d" x="62" y="369" font-size="15" letter-spacing="1" fill="#fff">DOMÓTICA DIY</text>
+<text class="m" x="62" y="394" font-size="12" fill="#b9dede">Control de TV, aire acondicionado, PC y</text>
+<text class="m" x="62" y="411" font-size="12" fill="#b9dede">otros dispositivos del hogar con módulos IR,</text>
+<text class="m" x="62" y="428" font-size="12" fill="#b9dede">relés y enchufes inteligentes.</text>
+<rect x="62" y="466" width="52.0" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="88.0" y="480" font-size="11" text-anchor="middle" fill="#d8a94a">ESP32</text>
+<rect x="122.0" y="466" width="65.6" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="154.8" y="480" font-size="11" text-anchor="middle" fill="#d8a94a">ESPHome</text>
+<rect x="195.6" y="466" width="113.2" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="252.2" y="480" font-size="11" text-anchor="middle" fill="#d8a94a">Home Assistant</text>
+<rect x="76.0" y="515" width="70.0" height="2" fill="#00f0ff"/>
+<circle cx="67.0" cy="516" r="5" fill="#00f0ff" filter="url(#glow2)"></circle>
+<text class="m" x="62.0" y="535" font-size="10" fill="#7fb3b3">concepto</text>
+<rect x="160.0" y="515" width="70.0" height="2" fill="#16393d"/>
+<circle cx="151.0" cy="516" r="5" fill="#00f0ff" filter="url(#glow2)"><animate attributeName="opacity" values="1;.35;1" dur="1.8s" repeatCount="indefinite"/></circle>
+<text class="m" x="146.0" y="535" font-size="10" fill="#00f0ff">diseño</text>
+<rect x="244.0" y="515" width="70.0" height="2" fill="#16393d"/>
+<circle cx="235.0" cy="516" r="4" fill="#04161b" stroke="#2a5a5c" stroke-width="2"/>
+<text class="m" x="230.0" y="535" font-size="10" fill="#4f7d7d">desarrollo</text>
+<circle cx="319.0" cy="516" r="4" fill="#04161b" stroke="#2a5a5c" stroke-width="2"/>
+<text class="m" x="314.0" y="535" font-size="10" fill="#4f7d7d">listo</text>
+<polygon points="438,336 816,336 832,352 832,546 438,546" fill="url(#card)" stroke="#00f0ff" stroke-opacity=".35"/>
+<circle cx="458" cy="364" r="5" fill="#04161b" stroke="#d8a94a" stroke-width="2"/>
+<text class="d" x="472" y="369" font-size="15" letter-spacing="1" fill="#fff">SMART USB</text>
+<text class="m" x="472" y="394" font-size="12" fill="#b9dede">Concepto de USB de diagnóstico: herramientas</text>
+<text class="m" x="472" y="411" font-size="12" fill="#b9dede">booteables más una IA que guía en lenguaje</text>
+<text class="m" x="472" y="428" font-size="12" fill="#b9dede">simple. Explora también una versión con</text>
+<text class="m" x="472" y="445" font-size="12" fill="#b9dede">ESP32.</text>
+<rect x="472" y="466" width="106.39999999999999" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="525.2" y="480" font-size="11" text-anchor="middle" fill="#d8a94a">USB booteable</text>
+<rect x="586.4" y="466" width="38.4" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="605.6" y="480" font-size="11" text-anchor="middle" fill="#d8a94a">LLM</text>
+<rect x="632.8" y="466" width="52.0" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="658.8" y="480" font-size="11" text-anchor="middle" fill="#d8a94a">ESP32</text>
+<rect x="486.0" y="515" width="70.0" height="2" fill="#16393d"/>
+<circle cx="477.0" cy="516" r="5" fill="#00f0ff" filter="url(#glow2)"><animate attributeName="opacity" values="1;.35;1" dur="1.8s" repeatCount="indefinite"/></circle>
+<text class="m" x="472.0" y="535" font-size="10" fill="#00f0ff">concepto</text>
+<rect x="570.0" y="515" width="70.0" height="2" fill="#16393d"/>
+<circle cx="561.0" cy="516" r="4" fill="#04161b" stroke="#2a5a5c" stroke-width="2"/>
+<text class="m" x="556.0" y="535" font-size="10" fill="#4f7d7d">diseño</text>
+<rect x="654.0" y="515" width="70.0" height="2" fill="#16393d"/>
+<circle cx="645.0" cy="516" r="4" fill="#04161b" stroke="#2a5a5c" stroke-width="2"/>
+<text class="m" x="640.0" y="535" font-size="10" fill="#4f7d7d">desarrollo</text>
+<circle cx="729.0" cy="516" r="4" fill="#04161b" stroke="#2a5a5c" stroke-width="2"/>
+<text class="m" x="724.0" y="535" font-size="10" fill="#4f7d7d">listo</text>
+<path d="M.5 .5H859.5V573.5H.5Z" fill="none" stroke="#00f0ff" stroke-opacity=".35"/>
+<g fill="none" stroke="#00f0ff" stroke-width="2" filter="url(#glow2)"><path d="M1 24V1H24"/><path d="M836 1H859V24"/><path d="M1 550V573H24"/><path d="M836 573H859V550"/></g>
+<rect width="860" height="574" fill="url(#scan)"/>
+</svg>

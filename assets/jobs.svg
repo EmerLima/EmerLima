@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="703" viewBox="0 0 860 703" role="img" aria-labelledby="t d">
+<title id="t">Historial de misiones</title>
+<desc id="d">Experiencia: Laser Argentina S.A. (04/2025 a 06/2026), Técnico Electrónico. Sunzone (02/2022 a 08/2023), Desarrollador de Software Embebido. Sirion S.A. (02/2019 a 10/2019), Técnico Electrónico en pasantía.</desc>
+<defs>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glow2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#d8a94a" stroke-opacity=".07"/></pattern>
+<pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect y="2" width="4" height="1" fill="#000" fill-opacity=".18"/></pattern>
+<radialGradient id="g1" cx="20%" cy="0%" r="60%"><stop offset="0" stop-color="#00f0ff" stop-opacity=".12"/><stop offset="1" stop-color="#00f0ff" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2" cx="90%" cy="100%" r="55%"><stop offset="0" stop-color="#ff2bd6" stop-opacity=".10"/><stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/></radialGradient>
+<linearGradient id="hl" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#d8a94a"/><stop offset="1" stop-color="#d8a94a" stop-opacity="0"/></linearGradient>
+<linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00f0ff" stop-opacity=".10"/><stop offset="1" stop-color="#051e24" stop-opacity=".75"/></linearGradient>
+<linearGradient id="pin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e0b45a"/><stop offset="1" stop-color="#9c7326"/></linearGradient>
+</defs>
+<style><![CDATA[
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace}
+.d{font-family:'Orbitron','Bahnschrift','Segoe UI Black','Arial Black',Verdana,sans-serif;font-weight:800}
+.pre{white-space:pre}
+.cur{animation:blink 1s steps(1) infinite}
+@keyframes blink{0%,49%{fill:#00f0ff}50%,100%{fill:transparent}}
+]]></style>
+<rect width="860" height="703" fill="#04161b"/>
+<rect width="860" height="703" fill="url(#grid)"/>
+<rect width="860" height="703" fill="url(#g1)"/>
+<rect width="860" height="703" fill="url(#g2)"/>
+<rect x="32" y="39" width="10" height="10" fill="#00f0ff" transform="rotate(45 37 44)" filter="url(#glow2)"/>
+<text class="d" x="54" y="48.5" font-size="13" font-weight="500" fill="#d8a94a" textLength="283.5" lengthAdjust="spacing">HISTORIAL_DE_MISIONES</text>
+<rect x="349.5" y="44" width="482.5" height="1" fill="url(#hl)"/>
+<path d="M40 84V675" stroke="#d8a94a" stroke-width="2"/>
+<polygon points="70,84 816,84 832,100 832,283 70,283" fill="url(#card)" stroke="#00f0ff" stroke-opacity=".35"/>
+<circle cx="40" cy="106" r="6" fill="#04161b" stroke="#00f0ff" stroke-width="2" filter="url(#glow2)"/>
+<text class="m" x="88" y="110" font-size="11" letter-spacing="1" fill="#d8a94a">04/2025 – 06/2026</text>
+<text class="d" x="88" y="134" font-size="15" letter-spacing="1" fill="#fff">LASER ARGENTINA S.A.</text>
+<text class="m" x="88" y="156" font-size="13" fill="#00f0ff">Técnico Electrónico</text>
+<text class="m pre" x="88" y="180" font-size="12" fill="#b9dede">•  Ensamblado y testeo funcional de equipos en línea de producción</text>
+<text class="m pre" x="88" y="199" font-size="12" fill="#b9dede">•  Carga de firmware, serialización y validación de modelos</text>
+<text class="m pre" x="88" y="218" font-size="12" fill="#b9dede">•  Redes en Linux, diagnóstico de hardware y trazabilidad por número de serie</text>
+<rect x="88" y="239" width="72.4" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="124.2" y="253" font-size="11" text-anchor="middle" fill="#d8a94a">Firmware</text>
+<rect x="168.4" y="239" width="52.0" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="194.4" y="253" font-size="11" text-anchor="middle" fill="#d8a94a">Linux</text>
+<rect x="228.4" y="239" width="65.6" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="261.2" y="253" font-size="11" text-anchor="middle" fill="#d8a94a">Testing</text>
+<polygon points="70,299 816,299 832,315 832,498 70,498" fill="url(#card)" stroke="#00f0ff" stroke-opacity=".35"/>
+<circle cx="40" cy="321" r="6" fill="#04161b" stroke="#00f0ff" stroke-width="2" filter="url(#glow2)"/>
+<text class="m" x="88" y="325" font-size="11" letter-spacing="1" fill="#d8a94a">02/2022 – 08/2023</text>
+<text class="d" x="88" y="349" font-size="15" letter-spacing="1" fill="#fff">SUNZONE</text>
+<text class="m" x="88" y="371" font-size="13" fill="#00f0ff">Desarrollador de Software Embebido</text>
+<text class="m pre" x="88" y="395" font-size="12" fill="#b9dede">•  Software en C, validación y depuración sobre hardware</text>
+<text class="m pre" x="88" y="414" font-size="12" fill="#b9dede">•  Documentación técnica e instructivos de instalación</text>
+<text class="m pre" x="88" y="433" font-size="12" fill="#b9dede">•  Prototipos con Arduino: sensores ultrasónicos y RF</text>
+<rect x="88" y="454" width="24.8" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="100.4" y="468" font-size="11" text-anchor="middle" fill="#d8a94a">C</text>
+<rect x="120.8" y="454" width="65.6" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="153.6" y="468" font-size="11" text-anchor="middle" fill="#d8a94a">Arduino</text>
+<rect x="194.39999999999998" y="454" width="31.6" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="210.2" y="468" font-size="11" text-anchor="middle" fill="#d8a94a">RF</text>
+<polygon points="70,514 816,514 832,530 832,675 70,675" fill="url(#card)" stroke="#00f0ff" stroke-opacity=".35"/>
+<circle cx="40" cy="536" r="6" fill="#04161b" stroke="#00f0ff" stroke-width="2" filter="url(#glow2)"/>
+<text class="m" x="88" y="540" font-size="11" letter-spacing="1" fill="#d8a94a">02/2019 – 10/2019</text>
+<text class="d" x="88" y="564" font-size="15" letter-spacing="1" fill="#fff">SIRION S.A.</text>
+<text class="m" x="88" y="586" font-size="13" fill="#00f0ff">Técnico Electrónico (Pasantía)</text>
+<text class="m pre" x="88" y="610" font-size="12" fill="#b9dede">•  Montaje de tableros, control de calidad y capacitación de personal nuevo</text>
+<rect x="88" y="631" width="72.4" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="124.2" y="645" font-size="11" text-anchor="middle" fill="#d8a94a">Tableros</text>
+<rect x="168.4" y="631" width="65.6" height="20" rx="2" fill="none" stroke="#d8a94a" stroke-opacity=".5"/><text class="m" x="201.2" y="645" font-size="11" text-anchor="middle" fill="#d8a94a">Calidad</text>
+<path d="M.5 .5H859.5V702.5H.5Z" fill="none" stroke="#00f0ff" stroke-opacity=".35"/>
+<g fill="none" stroke="#00f0ff" stroke-width="2" filter="url(#glow2)"><path d="M1 24V1H24"/><path d="M836 1H859V24"/><path d="M1 679V702H24"/><path d="M836 702H859V679"/></g>
+<rect width="860" height="703" fill="url(#scan)"/>
+</svg>

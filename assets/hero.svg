@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="618" viewBox="0 0 860 618" role="img" aria-labelledby="t d">
+<title id="t">Emerson Limachi — desarrollo, electrónica y automatización</title>
+<desc id="d">Perfil de Emerson Limachi: desarrollo de software embebido, electrónica y automatización. Estudiante de Ingeniería Electrónica en la UTN, 3er año. C, C++, Python, Qt, Linux, ESP32.</desc>
+<defs>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glow2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#d8a94a" stroke-opacity=".07"/></pattern>
+<pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect y="2" width="4" height="1" fill="#000" fill-opacity=".18"/></pattern>
+<radialGradient id="g1" cx="20%" cy="0%" r="60%"><stop offset="0" stop-color="#00f0ff" stop-opacity=".12"/><stop offset="1" stop-color="#00f0ff" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2" cx="90%" cy="100%" r="55%"><stop offset="0" stop-color="#ff2bd6" stop-opacity=".10"/><stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/></radialGradient>
+<linearGradient id="hl" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#d8a94a"/><stop offset="1" stop-color="#d8a94a" stop-opacity="0"/></linearGradient>
+<linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00f0ff" stop-opacity=".10"/><stop offset="1" stop-color="#051e24" stop-opacity=".75"/></linearGradient>
+<linearGradient id="pin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e0b45a"/><stop offset="1" stop-color="#9c7326"/></linearGradient>
+</defs>
+<style><![CDATA[
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace}
+.d{font-family:'Orbitron','Bahnschrift','Segoe UI Black','Arial Black',Verdana,sans-serif;font-weight:800}
+.pre{white-space:pre}
+.cur{animation:blink 1s steps(1) infinite}
+@keyframes blink{0%,49%{fill:#00f0ff}50%,100%{fill:transparent}}
+]]></style>
+<rect width="860" height="618" fill="#04161b"/>
+<rect width="860" height="618" fill="url(#grid)"/>
+<rect width="860" height="618" fill="url(#g1)"/>
+<rect width="860" height="618" fill="url(#g2)"/>
+<g class="m" font-size="11" fill="#7fb3b3"><text x="28" y="36">SYS//EMERLIMA</text><text x="430.0" y="36" text-anchor="middle">NODO 01 · ENLACE ESTABLE</text><text x="832" y="36" text-anchor="end">v2.6.2026</text></g>
+<clipPath id="av"><circle cx="96" cy="130" r="54"/></clipPath>
+<g clip-path="url(#av)"><rect x="42" y="76" width="108" height="108" fill="#f0f0f0"/><g fill="#c5e29a"><rect x="63.6" y="76.0" width="21.6" height="21.6"/><rect x="106.8" y="76.0" width="21.6" height="21.6"/><rect x="42.0" y="97.6" width="43.2" height="21.6"/><rect x="106.8" y="97.6" width="43.2" height="21.6"/><rect x="42.0" y="119.2" width="21.6" height="21.6"/><rect x="128.4" y="119.2" width="21.6" height="21.6"/><rect x="63.6" y="140.8" width="21.6" height="21.6"/><rect x="106.8" y="140.8" width="21.6" height="21.6"/></g></g>
+<circle cx="96" cy="130" r="54" fill="none" stroke="#00f0ff" stroke-width="2" filter="url(#glow)"/>
+<circle cx="96" cy="130" r="64" fill="none" stroke="#d8a94a" stroke-width="2" stroke-dasharray="6 5"><animateTransform attributeName="transform" type="rotate" from="0 96 130" to="360 96 130" dur="18s" repeatCount="indefinite"/></circle>
+<rect x="180" y="88" width="10" height="6" rx="2" fill="#d8a94a" filter="url(#glow2)"/><rect x="832" y="88" width="10" height="6" rx="2" fill="#d8a94a" filter="url(#glow2)"/>
+<rect x="180" y="108" width="10" height="6" rx="2" fill="#d8a94a" filter="url(#glow2)"/><rect x="832" y="108" width="10" height="6" rx="2" fill="#d8a94a" filter="url(#glow2)"/>
+<rect x="180" y="128" width="10" height="6" rx="2" fill="#d8a94a" filter="url(#glow2)"/><rect x="832" y="128" width="10" height="6" rx="2" fill="#d8a94a" filter="url(#glow2)"/>
+<rect x="180" y="148" width="10" height="6" rx="2" fill="#d8a94a" filter="url(#glow2)"/><rect x="832" y="148" width="10" height="6" rx="2" fill="#d8a94a" filter="url(#glow2)"/>
+<rect x="180" y="168" width="10" height="6" rx="2" fill="#d8a94a" filter="url(#glow2)"/><rect x="832" y="168" width="10" height="6" rx="2" fill="#d8a94a" filter="url(#glow2)"/>
+<polygon points="190,76 814,76 832,94 832,184 208,184 190,166" fill="#071a20" stroke="#00f0ff" filter="url(#glow2)"/>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;3 0;0 0;-3 0;0 0;0 0" keyTimes="0;.93;.94;.95;.96;.97;1" dur="6s" repeatCount="indefinite"/><text class="d" x="216" y="132" font-size="38" letter-spacing="3" fill="#ff2bd6" opacity=".9">EMERSON LIMACHI</text><text class="d" x="212" y="132" font-size="38" letter-spacing="3" fill="#00f0ff" opacity=".9">EMERSON LIMACHI</text><text class="d" x="214" y="132" font-size="38" letter-spacing="3" fill="#fff" filter="url(#glow2)">EMERSON LIMACHI</text></g>
+<text class="m" x="216" y="164" font-size="14" fill="#00f0ff">&gt; desarrollo + electrónica + automatización</text>
+<circle cx="36" cy="232" r="5" fill="#5dff8a" filter="url(#glow)"><animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+<text class="m" x="50" y="236" font-size="13" fill="#dff7f5">ONLINE</text>
+<polygon points="132,219 224.39999999999998,219 218.39999999999998,245 126,245" fill="rgba(0,240,255,.06)" stroke="#00f0ff" stroke-opacity="0.35"/><text class="m" x="175.2" y="236" font-size="12" text-anchor="middle" fill="#00f0ff">Argentina</text>
+<polygon points="242.39999999999998,219 319.59999999999997,219 313.59999999999997,245 236.39999999999998,245" fill="rgba(0,240,255,.06)" stroke="#00f0ff" stroke-opacity="0.35"/><text class="m" x="278.0" y="236" font-size="12" text-anchor="middle" fill="#00f0ff">C / C++</text>
+<polygon points="337.59999999999997,219 407.19999999999993,219 401.19999999999993,245 331.59999999999997,245" fill="rgba(0,240,255,.06)" stroke="#00f0ff" stroke-opacity="0.35"/><text class="m" x="369.4" y="236" font-size="12" text-anchor="middle" fill="#00f0ff">Python</text>
+<polygon points="425.19999999999993,219 487.19999999999993,219 481.19999999999993,245 419.19999999999993,245" fill="rgba(0,240,255,.06)" stroke="#00f0ff" stroke-opacity="0.35"/><text class="m" x="453.19999999999993" y="236" font-size="12" text-anchor="middle" fill="#00f0ff">ESP32</text>
+<polygon points="505.19999999999993,219 544.4,219 538.4,245 499.19999999999993,245" fill="rgba(0,240,255,.06)" stroke="#00f0ff" stroke-opacity="0.35"/><text class="m" x="521.8" y="236" font-size="12" text-anchor="middle" fill="#00f0ff">IA</text>
+<rect x="32" y="287" width="10" height="10" fill="#00f0ff" transform="rotate(45 37 292)" filter="url(#glow2)"/>
+<text class="d" x="54" y="296.5" font-size="13" font-weight="500" fill="#d8a94a" textLength="175.5" lengthAdjust="spacing">BOOT_SEQUENCE</text>
+<rect x="241.5" y="292" width="590.5" height="1" fill="url(#hl)"/>
+<rect x="28" y="314" width="804" height="278" fill="#020a0d" fill-opacity=".85" stroke="#00f0ff" stroke-opacity=".35"/>
+<path d="M28 342H832" stroke="#00f0ff" stroke-opacity=".35"/>
+<circle cx="44" cy="328" r="4" fill="#ff2bd6"/><circle cx="58" cy="328" r="4" fill="#d8a94a"/><circle cx="72" cy="328" r="4" fill="#5dff8a"/><text class="m" x="88" y="332" font-size="11" fill="#7fb3b3">emer@bench:~/perfil</text>
+<text class="m pre" x="46" y="366" font-size="13"><tspan fill="#5b8a8a">/* hardware + software, de la placa a la aplicación */</tspan></text>
+<text class="m pre" x="46" y="387" font-size="13"><tspan fill="#ff2bd6">const </tspan><tspan fill="#00f0ff">Perfil </tspan><tspan fill="#cfeff0">emerson = {</tspan></text>
+<text class="m pre" x="46" y="408" font-size="13"><tspan fill="#cfeff0">    .nombre  = </tspan><tspan fill="#5dff8a">"Emerson Limachi"</tspan><tspan fill="#cfeff0">,</tspan></text>
+<text class="m pre" x="46" y="429" font-size="13"><tspan fill="#cfeff0">    .estudia = </tspan><tspan fill="#5dff8a">"Ingeniería Electrónica @ UTN (3er año)"</tspan><tspan fill="#cfeff0">,</tspan></text>
+<text class="m pre" x="46" y="450" font-size="13"><tspan fill="#cfeff0">    .foco    = </tspan><tspan fill="#5dff8a">"software embebido · Qt · integración HW/SW"</tspan><tspan fill="#cfeff0">,</tspan></text>
+<text class="m pre" x="46" y="471" font-size="13"><tspan fill="#cfeff0">    .busca   = </tspan><tspan fill="#5dff8a">"equipo de desarrollo con proyectos desafiantes"</tspan><tspan fill="#cfeff0">,</tspan></text>
+<text class="m pre" x="46" y="492" font-size="13"><tspan fill="#cfeff0">    .idiomas = </tspan><tspan fill="#5dff8a">"español nativo · inglés intermedio"</tspan><tspan fill="#cfeff0">,</tspan></text>
+<text class="m pre" x="46" y="513" font-size="13"><tspan fill="#cfeff0">};</tspan></text>
+<text class="m pre" x="46" y="555" font-size="13"><tspan fill="#ff2bd6">$ </tspan><tspan fill="#cfeff0">./perfil --init</tspan><tspan class="cur" fill="#00f0ff">█</tspan></text>
+<path d="M.5 .5H859.5V617.5H.5Z" fill="none" stroke="#00f0ff" stroke-opacity=".35"/>
+<g fill="none" stroke="#00f0ff" stroke-width="2" filter="url(#glow2)"><path d="M1 24V1H24"/><path d="M836 1H859V24"/><path d="M1 594V617H24"/><path d="M836 617H859V594"/></g>
+<rect width="860" height="618" fill="url(#scan)"/>
+</svg>

@@ -1,40 +1,39 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f0ff,100:d8a94a&height=180&section=header&text=Emerson%20Limachi&fontSize=42&fontColor=04161b&fontAlignY=38&desc=desarrollo%20%2B%20electr%C3%B3nica%20%2B%20automatizaci%C3%B3n&descSize=16&descAlignY=60" alt="Emerson Limachi" width="100%"/>
+  <img src="./assets/hero.svg" alt="Emerson Limachi: desarrollo, electrónica y automatización. Estudiante de Ingeniería Electrónica en la UTN (3er año). Software embebido, C, C++, Python, Qt, Linux, ESP32. Busca un equipo de desarrollo." width="100%">
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1200&color=00F0FF&center=true&vCenter=true&width=620&lines=Software+embebido;C+%2F+C%2B%2B+%2B+Python+%2B+Qt;Ingenier%C3%ADa+Electr%C3%B3nica+%40+UTN;Buscando+un+equipo+de+desarrollo" alt="Software embebido · C / C++ · Python · Qt · Ingeniería Electrónica en la UTN" />
+  <img src="./assets/stack.svg" alt="Stack técnico. Lenguajes: C, C++, Python, SQL. Embebidos: ESP32, Arduino, STM32, MCUXpresso. Software: Qt Creator, Linux, Windows, Git, GitLab, Visual Studio, Home Assistant, Google Sheets. Protocolos: UART, SSH, TCP/IP. Asistentes IA: Claude Code, Codex." width="100%">
 </p>
 
-```c
-/* hardware + software, de la placa a la aplicación */
-const Perfil emerson = {
-    .nombre  = "Emerson Limachi",
-    .estudia = "Ingeniería Electrónica @ UTN (3er año)",
-    .foco    = "software embebido · Qt · integración HW/SW",
-    .busca   = "equipo de desarrollo con proyectos desafiantes",
-    .idiomas = "español nativo · inglés intermedio",
-};
-```
+<p align="center">
+  <img src="./assets/jobs.svg" alt="Experiencia: Laser Argentina S.A. (04/2025 a 06/2026), Técnico Electrónico. Sunzone (02/2022 a 08/2023), Desarrollador de Software Embebido. Sirion S.A. (02/2019 a 10/2019), Técnico Electrónico en pasantía." width="100%">
+</p>
 
-## Módulos activos
+<p align="center">
+  <img src="./assets/projects.svg" alt="Proyectos: plataforma de testing para equipos electrónicos (en desarrollo), app de sincronización con Google Sheets (en diseño), domótica DIY con ESP32 y Home Assistant (en diseño) y Smart USB de diagnóstico (concepto)." width="100%">
+</p>
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Qt](https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-![Home Assistant](https://img.shields.io/badge/Home_Assistant-18BCF2?style=for-the-badge&logo=homeassistant&logoColor=white)
+<p align="center">
+  <b>Repos públicos:</b>
+  <a href="https://github.com/EmerLima/EMSE">EMSE</a> ·
+  <a href="https://github.com/EmerLima/PruebaGIT">PruebaGIT</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://emerlima.github.io/EmerLima/">Ver la versión interactiva</a>
+</p>
 
-**Protocolos:** UART · SSH · TCP/IP  
-**Entornos:** Qt Creator · MCUXpresso · STM32CubeIDE · Visual Studio
+<p align="center">
+  <img src="./assets/telemetry.svg" alt="Cerca de 3,5 años de experiencia en 3 empresas. Ingeniería Electrónica en la UTN, 3er año. Español nativo, inglés intermedio." width="100%">
+</p>
 
-## Historial de misiones
+<details>
+<summary>Ver el perfil en texto</summary>
+
+**Emerson Limachi** · desarrollo, electrónica y automatización · Argentina
+
+Estudiante de Ingeniería Electrónica en la UTN (3er año). Orientado a software embebido e integración HW/SW. Busca incorporarse a un equipo de desarrollo con proyectos desafiantes. Idiomas: español nativo, inglés intermedio.
+
+**Stack:** C, C++, Python, SQL · ESP32, Arduino, STM32, MCUXpresso · Qt Creator, Linux, Windows, Git, GitLab, Visual Studio, Home Assistant, Google Sheets · UART, SSH, TCP/IP · Claude Code, Codex
 
 | Período | Dónde | Rol |
 |---|---|---|
@@ -42,23 +41,6 @@ const Perfil emerson = {
 | 02/2022 – 08/2023 | Sunzone | Desarrollador de Software Embebido: software en C, depuración sobre hardware y prototipos con Arduino |
 | 02/2019 – 10/2019 | Sirion S.A. | Técnico Electrónico (pasantía): montaje de tableros y control de calidad |
 
-## Proyectos en banco
+**Proyectos:** plataforma de testing para equipos electrónicos (Electron, React, TypeScript, Spring Boot, Supabase; en desarrollo) · sincronización con Google Sheets (Python, Flet; en diseño) · domótica DIY (ESP32, ESPHome, Home Assistant; en diseño) · Smart USB de diagnóstico (concepto).
 
-| Proyecto | Qué es | Stack | Estado |
-|---|---|---|---|
-| **Plataforma de testing** | App de escritorio para Ubuntu que automatiza la prueba, configuración y registro de equipos electrónicos, y sincroniza los resultados con Google Sheets | Electron · React · TypeScript · Spring Boot · Supabase | En desarrollo |
-| **Sync con Sheets** | App de escritorio con interfaz moderna que sincroniza datos en tiempo real y en ambos sentidos con una planilla de Google Sheets | Python · Flet · Google Sheets | En diseño |
-| **Domótica DIY** | Control de TV, aire acondicionado, PC y otros dispositivos del hogar con módulos IR, relés y enchufes inteligentes | ESP32 · ESPHome · Home Assistant | En diseño |
-| **Smart USB** | USB de diagnóstico con herramientas booteables y una IA que guía en lenguaje simple | USB booteable · LLM · ESP32 | Concepto |
-
-## Telemetría
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=EmerLima&show_icons=true&theme=tokyonight&hide_border=true&bg_color=04161b&title_color=00f0ff&icon_color=d8a94a&text_color=dff7f5" alt="Estadísticas de GitHub de EmerLima" />
-</p>
-
-<!-- Cuando publiques la versión web con GitHub Pages, descomentá la línea de abajo:
-👉 [Ver la versión interactiva](https://emerlima.github.io/EmerLima/)
--->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:d8a94a,100:00f0ff&height=90&section=footer" alt="" width="100%"/>
+</details>
