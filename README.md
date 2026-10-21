@@ -1,81 +1,64 @@
-# Piano ESP32-C3 — OLED + Botones + Buzzer
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f0ff,100:d8a94a&height=180&section=header&text=Emerson%20Limachi&fontSize=42&fontColor=04161b&fontAlignY=38&desc=desarrollo%20%2B%20electr%C3%B3nica%20%2B%20automatizaci%C3%B3n&descSize=16&descAlignY=60" alt="Emerson Limachi" width="100%"/>
+</p>
 
-Mini-teclado musical embebido: 4 botones disparan notas en un buzzer pasivo
-(vía PWM/LEDC) y una pantalla OLED SH1106 de 1.3" muestra qué nota está
-sonando. Al arrancar reproduce una melodía de bienvenida a modo de demo.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1200&color=00F0FF&center=true&vCenter=true&width=620&lines=Software+embebido;C+%2F+C%2B%2B+%2B+Python+%2B+Qt;Ingenier%C3%ADa+Electr%C3%B3nica+%40+UTN;Buscando+un+equipo+de+desarrollo" alt="Software embebido · C / C++ · Python · Qt · Ingeniería Electrónica en la UTN" />
+</p>
 
-## Hardware
-
-| Componente              | Notas                                             |
-|--------------------------|----------------------------------------------------|
-| ESP32-C3 **SuperMini**   | El pinout por defecto está probado con esta placa. Otras placas C3 también sirven, ajustando pines. |
-| OLED SH1106 1.3" (I2C)   | 128x64 px, 4 pines (VCC, GND, SDA, SCL)            |
-| Buzzer **pasivo**        | Necesario para generar tonos variables (PWM)       |
-| 4x pulsadores táctiles 6x6mm | Uno por nota                                   |
-
-## Conexionado (por defecto, ver `include/config.h`)
-
-| Señal         | Pin ESP32-C3 |
-|---------------|--------------|
-| OLED SDA      | GPIO5        |
-| OLED SCL      | GPIO6        |
-| Buzzer        | GPIO4        |
-| Botón 1 (DO)  | GPIO3        |
-| Botón 2 (RE)  | GPIO7        |
-| Botón 3 (MI)  | GPIO10       |
-| Botón 4 (FA)  | GPIO20       |
-
-Los botones usan `INPUT_PULLUP`: van del pin a GND, sin resistencia externa.
-Los pines evitan los *strapping pins* del C3 (GPIO2, GPIO8, GPIO9) y los
-pines de USB nativo (GPIO18/19), que en la SuperMini no están expuestos en
-el header (GPIO8 tiene el LED azul integrado, GPIO9 el botón BOOT). Si tu
-placa usa otro mapeo de pines, sólo hace falta tocar `include/config.h`.
-
-## Arquitectura (sistema embebido: superloop no bloqueante)
-
-```
-include/          Headers públicos de cada módulo (drivers + app)
-  config.h        Pines y constantes de hardware
-  notes.h         Frecuencias de notas musicales
-  button.h        Debounce no bloqueante
-  buzzer.h        Driver PWM/LEDC de bajo nivel (noteOn/noteOff)
-  melody_player.h Reproductor de melodías no bloqueante
-  display.h       Driver de la OLED (U8g2)
-  melodies.h       Datos de melodías (ej. demo de bienvenida)
-src/               Implementación de cada módulo
-  main.cpp         setup()/loop(): arma el superloop
+```c
+/* hardware + software, de la placa a la aplicación */
+const Perfil emerson = {
+    .nombre  = "Emerson Limachi",
+    .estudia = "Ingeniería Electrónica @ UTN (3er año)",
+    .foco    = "software embebido · Qt · integración HW/SW",
+    .busca   = "equipo de desarrollo con proyectos desafiantes",
+    .idiomas = "español nativo · inglés intermedio",
+};
 ```
 
-**Regla de oro:** nada bloquea. Ningún módulo usa `delay()`; todos
-guardan su propio estado y deciden qué hacer en cada vuelta de `loop()`
-comparando contra `millis()`. Esto es lo que permite, por ejemplo, que los
-botones se seguan leyendo con baja latencia mientras suena una nota o una
-melodía.
+## Módulos activos
 
-- **`button.h/.cpp`**: máquina de estados de debounce. Expone eventos de
-  flanco (`pressedEvent`/`releasedEvent`) que se consumen una sola vez por
-  transición.
-- **`buzzer.h/.cpp`**: driver mínimo (HAL) sobre el periférico LEDC del
-  ESP32. Sólo sabe encender/apagar un tono a una frecuencia; no conoce
-  duraciones ni melodías.
-- **`melody_player.h/.cpp`**: capa de aplicación construida sobre el driver
-  del buzzer. Reproduce un array de `MelodyNote` avanzando nota por nota de
-  forma no bloqueante (máquina de estados NOTE/GAP).
-- **`display.h/.cpp`**: wrapper fino sobre U8g2 con funciones de alto nivel
-  (`displayShowNote`, `displayShowIdle`, etc.) para que `main.cpp` no
-  dependa directamente de la librería gráfica.
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Qt](https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![Home Assistant](https://img.shields.io/badge/Home_Assistant-18BCF2?style=for-the-badge&logo=homeassistant&logoColor=white)
 
-## Compilar y flashear (PlatformIO)
+**Protocolos:** UART · SSH · TCP/IP  
+**Entornos:** Qt Creator · MCUXpresso · STM32CubeIDE · Visual Studio
 
-```bash
-pio run                # compilar
-pio run -t upload      # compilar y flashear
-pio device monitor      # monitor serie
-```
+## Historial de misiones
 
-## Próximos pasos posibles
+| Período | Dónde | Rol |
+|---|---|---|
+| 04/2025 – 06/2026 | Laser Argentina S.A. | Técnico Electrónico: testeo funcional, carga de firmware, redes en Linux y diagnóstico de hardware |
+| 02/2022 – 08/2023 | Sunzone | Desarrollador de Software Embebido: software en C, depuración sobre hardware y prototipos con Arduino |
+| 02/2019 – 10/2019 | Sirion S.A. | Técnico Electrónico (pasantía): montaje de tableros y control de calidad |
 
-- Agregar más notas/octavas si se suman más botones.
-- Guardar melodías grabadas por el usuario (secuencia de notas + tiempos)
-  en flash (NVS/Preferences) para reproducirlas después.
-- Modo "grabación": un botón extra para grabar/reproducir lo tocado.
+## Proyectos en banco
+
+| Proyecto | Qué es | Stack | Estado |
+|---|---|---|---|
+| **Plataforma de testing** | App de escritorio para Ubuntu que automatiza la prueba, configuración y registro de equipos electrónicos, y sincroniza los resultados con Google Sheets | Electron · React · TypeScript · Spring Boot · Supabase | En desarrollo |
+| **Sync con Sheets** | App de escritorio con interfaz moderna que sincroniza datos en tiempo real y en ambos sentidos con una planilla de Google Sheets | Python · Flet · Google Sheets | En diseño |
+| **Domótica DIY** | Control de TV, aire acondicionado, PC y otros dispositivos del hogar con módulos IR, relés y enchufes inteligentes | ESP32 · ESPHome · Home Assistant | En diseño |
+| **Smart USB** | USB de diagnóstico con herramientas booteables y una IA que guía en lenguaje simple | USB booteable · LLM · ESP32 | Concepto |
+
+## Telemetría
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=EmerLima&show_icons=true&theme=tokyonight&hide_border=true&bg_color=04161b&title_color=00f0ff&icon_color=d8a94a&text_color=dff7f5" alt="Estadísticas de GitHub de EmerLima" />
+</p>
+
+<!-- Cuando publiques la versión web con GitHub Pages, descomentá la línea de abajo:
+👉 [Ver la versión interactiva](https://emerlima.github.io/EmerLima/)
+-->
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:d8a94a,100:00f0ff&height=90&section=footer" alt="" width="100%"/>
